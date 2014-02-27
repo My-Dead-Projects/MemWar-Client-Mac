@@ -1,14 +1,6 @@
-//
-//  MyScene.m
-//  MemWar
-//
-//  Created by Michael Dorst on 2/27/14.
-//  Copyright (c) 2014 Michael Dorst. All rights reserved.
-//
+#import "CoreScene.h"
 
-#import "MyScene.h"
-
-@implementation MyScene
+@implementation CoreScene
 
 -(id)initWithSize:(CGSize)size {    
     if (self = [super initWithSize:size]) {

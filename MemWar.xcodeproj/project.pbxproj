@@ -13,14 +13,14 @@
 		27C2F46318BF573A00C22093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C2F46218BF573A00C22093 /* main.m */; };
 		27C2F46718BF573A00C22093 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 27C2F46518BF573A00C22093 /* Credits.rtf */; };
 		27C2F46918BF573A00C22093 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C2F46818BF573A00C22093 /* MainMenu.xib */; };
-		27C2F46B18BF573A00C22093 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C2F46A18BF573A00C22093 /* MyScene.m */; };
+		27C2F46B18BF573A00C22093 /* CoreScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C2F46A18BF573A00C22093 /* CoreScene.m */; };
 		27C2F46E18BF573A00C22093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C2F46D18BF573A00C22093 /* AppDelegate.m */; };
-		27C2F47118BF573A00C22093 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C2F47018BF573A00C22093 /* Spaceship.png */; };
 		27C2F47318BF573A00C22093 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C2F47218BF573A00C22093 /* Images.xcassets */; };
 		27C2F47A18BF573A00C22093 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C2F47918BF573A00C22093 /* XCTest.framework */; };
 		27C2F47B18BF573A00C22093 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C2F45418BF573A00C22093 /* Cocoa.framework */; };
 		27C2F48318BF573A00C22093 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27C2F48118BF573A00C22093 /* InfoPlist.strings */; };
 		27C2F48518BF573A00C22093 /* MemWarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C2F48418BF573A00C22093 /* MemWarTests.m */; };
+		27C2F49918BF64B800C22093 /* CoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C2F49818BF64B800C22093 /* CoreView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,17 +46,18 @@
 		27C2F46418BF573A00C22093 /* MemWar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MemWar-Prefix.pch"; sourceTree = "<group>"; };
 		27C2F46618BF573A00C22093 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		27C2F46818BF573A00C22093 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
-		27C2F46A18BF573A00C22093 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		27C2F46C18BF573A00C22093 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		27C2F46A18BF573A00C22093 /* CoreScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreScene.m; sourceTree = "<group>"; };
+		27C2F46C18BF573A00C22093 /* CoreScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreScene.h; sourceTree = "<group>"; };
 		27C2F46D18BF573A00C22093 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		27C2F46F18BF573A00C22093 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		27C2F47018BF573A00C22093 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		27C2F47218BF573A00C22093 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		27C2F47818BF573A00C22093 /* MemWarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemWarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C2F47918BF573A00C22093 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		27C2F48018BF573A00C22093 /* MemWarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemWarTests-Info.plist"; sourceTree = "<group>"; };
 		27C2F48218BF573A00C22093 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27C2F48418BF573A00C22093 /* MemWarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemWarTests.m; sourceTree = "<group>"; };
+		27C2F49718BF64B800C22093 /* CoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreView.h; sourceTree = "<group>"; };
+		27C2F49818BF64B800C22093 /* CoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,11 +126,12 @@
 			isa = PBXGroup;
 			children = (
 				27C2F46818BF573A00C22093 /* MainMenu.xib */,
-				27C2F46A18BF573A00C22093 /* MyScene.m */,
-				27C2F46C18BF573A00C22093 /* MyScene.h */,
-				27C2F46D18BF573A00C22093 /* AppDelegate.m */,
+				27C2F46C18BF573A00C22093 /* CoreScene.h */,
+				27C2F46A18BF573A00C22093 /* CoreScene.m */,
+				27C2F49718BF64B800C22093 /* CoreView.h */,
+				27C2F49818BF64B800C22093 /* CoreView.m */,
 				27C2F46F18BF573A00C22093 /* AppDelegate.h */,
-				27C2F47018BF573A00C22093 /* Spaceship.png */,
+				27C2F46D18BF573A00C22093 /* AppDelegate.m */,
 				27C2F47218BF573A00C22093 /* Images.xcassets */,
 				27C2F45D18BF573A00C22093 /* Supporting Files */,
 			);
@@ -241,7 +243,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27C2F47118BF573A00C22093 /* Spaceship.png in Resources */,
 				27C2F47318BF573A00C22093 /* Images.xcassets in Resources */,
 				27C2F46118BF573A00C22093 /* InfoPlist.strings in Resources */,
 				27C2F46718BF573A00C22093 /* Credits.rtf in Resources */,
@@ -264,7 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27C2F46B18BF573A00C22093 /* MyScene.m in Sources */,
+				27C2F46B18BF573A00C22093 /* CoreScene.m in Sources */,
+				27C2F49918BF64B800C22093 /* CoreView.m in Sources */,
 				27C2F46318BF573A00C22093 /* main.m in Sources */,
 				27C2F46E18BF573A00C22093 /* AppDelegate.m in Sources */,
 			);
