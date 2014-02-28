@@ -8,7 +8,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     /* Pick a size for the scene */
-    SKScene *scene = [CoreScene sceneWithSize:CGSizeMake(1024, 768)];
+    scene = [CoreScene sceneWithSize:CGSizeMake(1024, 768)];
     
     /* Set the scale mode to scale to fit the window */
     scene.scaleMode = SKSceneScaleModeAspectFit;
@@ -17,6 +17,9 @@
     self.view.showsNodeCount = NO;
     self.view.showsDrawCount = NO;
     
+    gameController = [[GameController alloc] initWithScene:scene];
+    
+    [gameController initializeScene];
     
     [self.view presentScene:scene];
 }
