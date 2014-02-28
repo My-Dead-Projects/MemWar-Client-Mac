@@ -6,7 +6,7 @@
     if (self = [super initWithSize:size]) {
         /* Setup your scene here */
         
-        self.backgroundColor = [SKColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:1.0];
+        self.backgroundColor = [SKColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:1.0];
         
         SKLabelNode *labels[1024];
         
