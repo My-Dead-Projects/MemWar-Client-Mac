@@ -109,7 +109,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="800" height="600"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <splitView fixedFrame="YES" dividerStyle="paneSplitter" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0WR-KB-aDp">
+                    <splitView dividerStyle="paneSplitter" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0WR-KB-aDp">
                         <rect key="frame" x="0.0" y="61" width="800" height="539"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
@@ -127,7 +127,7 @@
                             <real value="250"/>
                         </holdingPriorities>
                     </splitView>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pMX-ph-8mp">
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pMX-ph-8mp">
                         <rect key="frame" x="721" y="13" width="65" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Run" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Pvu-3P-I9g">
@@ -136,6 +136,14 @@
                         </buttonCell>
                     </button>
                 </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="0WR-KB-aDp" secondAttribute="trailing" id="10s-4x-Sf7"/>
+                    <constraint firstItem="0WR-KB-aDp" firstAttribute="leading" secondItem="372" secondAttribute="leading" id="3sD-a8-CBS"/>
+                    <constraint firstItem="pMX-ph-8mp" firstAttribute="top" secondItem="0WR-KB-aDp" secondAttribute="bottom" constant="20" id="8Io-27-rxk"/>
+                    <constraint firstAttribute="bottom" secondItem="pMX-ph-8mp" secondAttribute="bottom" constant="20" id="Q5S-dw-Dky"/>
+                    <constraint firstItem="0WR-KB-aDp" firstAttribute="top" secondItem="372" secondAttribute="top" id="Y4z-TH-JLp"/>
+                    <constraint firstAttribute="trailing" secondItem="pMX-ph-8mp" secondAttribute="trailing" constant="20" id="rR3-bm-Vi3"/>
+                </constraints>
             </view>
         </window>
         <customObject id="494" customClass="AppDelegate">

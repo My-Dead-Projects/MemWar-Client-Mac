@@ -6,16 +6,17 @@
     if (self = [super initWithSize:size]) {
         /* Setup your scene here */
         
-        self.backgroundColor = [SKColor colorWithRed:0.15 green:0.15 blue:0.3 alpha:1.0];
+        self.backgroundColor = [SKColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:1.0];
         
-        SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
+        SKLabelNode *labels[1024];
         
-        myLabel.text = @"Hello, World!";
-        myLabel.fontSize = 65;
-        myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
-                                       CGRectGetMidY(self.frame));
-        
-        [self addChild:myLabel];
+        for (int i = 0; i < 1024; i++) {
+            labels[i] = [SKLabelNode labelNodeWithFontNamed:@"Consolas"];
+            labels[i].text = @"nop";
+            labels[i].fontSize = 40;
+            labels[i].position = CGPointMake(35, 740-(i*35));
+            [self addChild:labels[i]];
+        }
     }
     return self;
 }
@@ -23,18 +24,18 @@
 -(void)mouseDown:(NSEvent *)theEvent {
      /* Called when a mouse click occurs */
     
-    CGPoint location = [theEvent locationInNode:self];
-    
-    SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
-    
-    sprite.position = location;
-    sprite.scale = 0.5;
-    
-    SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
-    
-    [sprite runAction:[SKAction repeatActionForever:action]];
-    
-    [self addChild:sprite];
+//    CGPoint location = [theEvent locationInNode:self];
+//    
+//    SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
+//    
+//    sprite.position = location;
+//    sprite.scale = 0.5;
+//    
+//    SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
+//    
+//    [sprite runAction:[SKAction repeatActionForever:action]];
+//    
+//    [self addChild:sprite];
 }
 
 -(void)update:(CFTimeInterval)currentTime {
