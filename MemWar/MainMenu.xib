@@ -114,11 +114,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
                             <customView fixedFrame="YES" id="89C-Er-Zjg" customClass="CoreView">
-                                <rect key="frame" x="0.0" y="0.0" width="398" height="539"/>
+                                <rect key="frame" x="0.0" y="0.0" width="581" height="539"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </customView>
                             <customView fixedFrame="YES" id="ANx-hR-5cF" customClass="NSTextView">
-                                <rect key="frame" x="408" y="0.0" width="392" height="539"/>
+                                <rect key="frame" x="591" y="0.0" width="209" height="539"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </customView>
                         </subviews>

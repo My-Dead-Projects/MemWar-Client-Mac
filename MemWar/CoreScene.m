@@ -12,9 +12,9 @@
         
         for (int i = 0; i < 1024; i++) {
             labels[i] = [SKLabelNode labelNodeWithFontNamed:@"Consolas"];
-            labels[i].text = @"nop";
-            labels[i].fontSize = 40;
-            labels[i].position = CGPointMake(35, 740-(i*35));
+            labels[i].text = [NSString stringWithFormat:@"nop"];
+            labels[i].fontSize = 15;
+            labels[i].position = CGPointMake(15+30*(i/64), (760*(i/64+1)-i*12+8*i/64)-5);
             [self addChild:labels[i]];
         }
     }
