@@ -13,8 +13,9 @@
     /* Set the scale mode to scale to fit the window */
     scene.scaleMode = SKSceneScaleModeAspectFit;
     
-    //self.view.showsFPS = YES;
-    //self.view.showsNodeCount = YES;
+    self.view.showsFPS = NO;
+    self.view.showsNodeCount = NO;
+    self.view.showsDrawCount = NO;
     
     
     [self.view presentScene:scene];
