@@ -23,6 +23,21 @@
 		27C2F49918BF64B800C22093 /* CoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C2F49818BF64B800C22093 /* CoreView.m */; };
 		27D11FC518C0A2A5007AC1FD /* Ruby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D11FC318C0A287007AC1FD /* Ruby.framework */; };
 		27D11FC818C0A78A007AC1FD /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D11FC718C0A78A007AC1FD /* GameController.m */; };
+		27D11FDB18C175CE007AC1FD /* .name in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FCB18C175CE007AC1FD /* .name */; };
+		27D11FDC18C175CE007AC1FD /* encodings.xml in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FCC18C175CE007AC1FD /* encodings.xml */; };
+		27D11FDD18C175CE007AC1FD /* MemWar.iml in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FCD18C175CE007AC1FD /* MemWar.iml */; };
+		27D11FDE18C175CE007AC1FD /* misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FCE18C175CE007AC1FD /* misc.xml */; };
+		27D11FDF18C175CE007AC1FD /* modules.xml in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FCF18C175CE007AC1FD /* modules.xml */; };
+		27D11FE018C175CE007AC1FD /* scope_settings.xml in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FD118C175CE007AC1FD /* scope_settings.xml */; };
+		27D11FE118C175CE007AC1FD /* vcs.xml in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FD218C175CE007AC1FD /* vcs.xml */; };
+		27D11FE218C175CE007AC1FD /* workspace.xml in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FD318C175CE007AC1FD /* workspace.xml */; };
+		27D11FE318C175CE007AC1FD /* constant.rb in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FD418C175CE007AC1FD /* constant.rb */; };
+		27D11FE418C175CE007AC1FD /* core.rb in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FD518C175CE007AC1FD /* core.rb */; };
+		27D11FE518C175CE007AC1FD /* game.rb in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FD618C175CE007AC1FD /* game.rb */; };
+		27D11FE618C175CE007AC1FD /* instruction.rb in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FD718C175CE007AC1FD /* instruction.rb */; };
+		27D11FE718C175CE007AC1FD /* prog1.bc in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FD818C175CE007AC1FD /* prog1.bc */; };
+		27D11FE818C175CE007AC1FD /* prog2.bc in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FD918C175CE007AC1FD /* prog2.bc */; };
+		27D11FE918C175CE007AC1FD /* vm.rb in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FDA18C175CE007AC1FD /* vm.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +78,21 @@
 		27D11FC318C0A287007AC1FD /* Ruby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ruby.framework; path = System/Library/Frameworks/Ruby.framework; sourceTree = SDKROOT; };
 		27D11FC618C0A78A007AC1FD /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
 		27D11FC718C0A78A007AC1FD /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		27D11FCB18C175CE007AC1FD /* .name */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .name; sourceTree = "<group>"; };
+		27D11FCC18C175CE007AC1FD /* encodings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = encodings.xml; sourceTree = "<group>"; };
+		27D11FCD18C175CE007AC1FD /* MemWar.iml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MemWar.iml; sourceTree = "<group>"; };
+		27D11FCE18C175CE007AC1FD /* misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = misc.xml; sourceTree = "<group>"; };
+		27D11FCF18C175CE007AC1FD /* modules.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = modules.xml; sourceTree = "<group>"; };
+		27D11FD118C175CE007AC1FD /* scope_settings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = scope_settings.xml; sourceTree = "<group>"; };
+		27D11FD218C175CE007AC1FD /* vcs.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = vcs.xml; sourceTree = "<group>"; };
+		27D11FD318C175CE007AC1FD /* workspace.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = workspace.xml; sourceTree = "<group>"; };
+		27D11FD418C175CE007AC1FD /* constant.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = constant.rb; sourceTree = "<group>"; };
+		27D11FD518C175CE007AC1FD /* core.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = core.rb; sourceTree = "<group>"; };
+		27D11FD618C175CE007AC1FD /* game.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = game.rb; sourceTree = "<group>"; };
+		27D11FD718C175CE007AC1FD /* instruction.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = instruction.rb; sourceTree = "<group>"; };
+		27D11FD818C175CE007AC1FD /* prog1.bc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = prog1.bc; sourceTree = "<group>"; };
+		27D11FD918C175CE007AC1FD /* prog2.bc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = prog2.bc; sourceTree = "<group>"; };
+		27D11FDA18C175CE007AC1FD /* vm.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = vm.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				27C2F46818BF573A00C22093 /* MainMenu.xib */,
+				27D11FC918C175CE007AC1FD /* Game */,
 				27C2F46C18BF573A00C22093 /* CoreScene.h */,
 				27C2F46A18BF573A00C22093 /* CoreScene.m */,
 				27C2F49718BF64B800C22093 /* CoreView.h */,
@@ -175,6 +206,45 @@
 				27C2F48118BF573A00C22093 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27D11FC918C175CE007AC1FD /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				27D11FCA18C175CE007AC1FD /* .idea */,
+				27D11FD418C175CE007AC1FD /* constant.rb */,
+				27D11FD518C175CE007AC1FD /* core.rb */,
+				27D11FD618C175CE007AC1FD /* game.rb */,
+				27D11FD718C175CE007AC1FD /* instruction.rb */,
+				27D11FD818C175CE007AC1FD /* prog1.bc */,
+				27D11FD918C175CE007AC1FD /* prog2.bc */,
+				27D11FDA18C175CE007AC1FD /* vm.rb */,
+			);
+			name = Game;
+			path = ../../../RubyMine/MemWar;
+			sourceTree = "<group>";
+		};
+		27D11FCA18C175CE007AC1FD /* .idea */ = {
+			isa = PBXGroup;
+			children = (
+				27D11FCB18C175CE007AC1FD /* .name */,
+				27D11FCC18C175CE007AC1FD /* encodings.xml */,
+				27D11FCD18C175CE007AC1FD /* MemWar.iml */,
+				27D11FCE18C175CE007AC1FD /* misc.xml */,
+				27D11FCF18C175CE007AC1FD /* modules.xml */,
+				27D11FD018C175CE007AC1FD /* scopes */,
+				27D11FD218C175CE007AC1FD /* vcs.xml */,
+				27D11FD318C175CE007AC1FD /* workspace.xml */,
+			);
+			path = .idea;
+			sourceTree = "<group>";
+		};
+		27D11FD018C175CE007AC1FD /* scopes */ = {
+			isa = PBXGroup;
+			children = (
+				27D11FD118C175CE007AC1FD /* scope_settings.xml */,
+			);
+			path = scopes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,9 +323,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				27C2F47318BF573A00C22093 /* Images.xcassets in Resources */,
+				27D11FE018C175CE007AC1FD /* scope_settings.xml in Resources */,
+				27D11FE618C175CE007AC1FD /* instruction.rb in Resources */,
+				27D11FE918C175CE007AC1FD /* vm.rb in Resources */,
+				27D11FE318C175CE007AC1FD /* constant.rb in Resources */,
 				27C2F46118BF573A00C22093 /* InfoPlist.strings in Resources */,
+				27D11FDF18C175CE007AC1FD /* modules.xml in Resources */,
 				27C2F46718BF573A00C22093 /* Credits.rtf in Resources */,
+				27D11FE818C175CE007AC1FD /* prog2.bc in Resources */,
+				27D11FE118C175CE007AC1FD /* vcs.xml in Resources */,
+				27D11FDE18C175CE007AC1FD /* misc.xml in Resources */,
+				27D11FE718C175CE007AC1FD /* prog1.bc in Resources */,
 				27C2F46918BF573A00C22093 /* MainMenu.xib in Resources */,
+				27D11FDC18C175CE007AC1FD /* encodings.xml in Resources */,
+				27D11FDB18C175CE007AC1FD /* .name in Resources */,
+				27D11FDD18C175CE007AC1FD /* MemWar.iml in Resources */,
+				27D11FE518C175CE007AC1FD /* game.rb in Resources */,
+				27D11FE418C175CE007AC1FD /* core.rb in Resources */,
+				27D11FE218C175CE007AC1FD /* workspace.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
