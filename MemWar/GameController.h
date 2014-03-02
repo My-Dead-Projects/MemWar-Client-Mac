@@ -14,4 +14,6 @@
 
 - (void)initializeGame;
 
+- (void)cleanup;
+
 @end

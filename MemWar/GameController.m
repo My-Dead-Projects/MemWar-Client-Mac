@@ -24,6 +24,11 @@
     snprintf(gameScriptPath, strlen(bundlePath)+28,
              "%s/Contents/Resources/game.rb", bundlePath);
     rb_require(gameScriptPath);
+    game = rb_gv_get("game");
+}
+
+- (void)cleanup {
+    ruby_cleanup(0);
 }
 
 @end

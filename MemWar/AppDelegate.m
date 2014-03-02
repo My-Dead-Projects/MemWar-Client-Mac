@@ -28,4 +28,8 @@
     return YES;
 }
 
+- (void)applicationWillTerminate:(NSNotification *)notification {
+    [gameController cleanup];
+}
+
 @end
