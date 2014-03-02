@@ -46,21 +46,21 @@ VALUE call(VALUE reciever, char * methodName, int argc, ...);
     snprintf(prog2Path, strlen(bundlePath)+29,
              "%s/Contents/Resources/prog2.bc", bundlePath);
     
-    if (RTEST(call(game, "load_prog", 1, rb_str_new2(prog1Path)))) {
+    if (RTEST(call(game, "load_prog", 2, rb_str_new2(prog1Path), INT2NUM(0)))) {
         
     } else {
         @throw [NSException exceptionWithName:@"ProgramNotFoundException"
                             reason:[NSString
-                                    stringWithFormat:@"%s is not a valid file",
+                                    stringWithFormat:@"%s did not load successfully",
                                     prog1Path]
                             userInfo:nil];
     }
-    if (RTEST(call(game, "load_prog", 1, rb_str_new2(prog2Path)))) {
+    if (RTEST(call(game, "load_prog", 2, rb_str_new2(prog2Path), INT2NUM(512)))) {
         
     } else {
         @throw [NSException exceptionWithName:@"ProgramNotFoundException"
                                        reason:[NSString
-                                               stringWithFormat:@"%s is not a valid file",
+                                               stringWithFormat:@"%s did not load successfully",
                                                prog2Path]
                                      userInfo:nil];
     }

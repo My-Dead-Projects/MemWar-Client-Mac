@@ -34,10 +34,10 @@
 		27D11FE318C175CE007AC1FD /* constant.rb in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FD418C175CE007AC1FD /* constant.rb */; };
 		27D11FE418C175CE007AC1FD /* core.rb in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FD518C175CE007AC1FD /* core.rb */; };
 		27D11FE518C175CE007AC1FD /* game.rb in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FD618C175CE007AC1FD /* game.rb */; };
-		27D11FE618C175CE007AC1FD /* instruction.rb in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FD718C175CE007AC1FD /* instruction.rb */; };
 		27D11FE718C175CE007AC1FD /* prog1.bc in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FD818C175CE007AC1FD /* prog1.bc */; };
 		27D11FE818C175CE007AC1FD /* prog2.bc in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FD918C175CE007AC1FD /* prog2.bc */; };
 		27D11FE918C175CE007AC1FD /* vm.rb in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FDA18C175CE007AC1FD /* vm.rb */; };
+		27D11FEB18C30191007AC1FD /* instr.rb in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FEA18C30191007AC1FD /* instr.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,10 +89,10 @@
 		27D11FD418C175CE007AC1FD /* constant.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = constant.rb; sourceTree = "<group>"; };
 		27D11FD518C175CE007AC1FD /* core.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = core.rb; sourceTree = "<group>"; };
 		27D11FD618C175CE007AC1FD /* game.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = game.rb; sourceTree = "<group>"; };
-		27D11FD718C175CE007AC1FD /* instruction.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = instruction.rb; sourceTree = "<group>"; };
 		27D11FD818C175CE007AC1FD /* prog1.bc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = prog1.bc; sourceTree = "<group>"; };
 		27D11FD918C175CE007AC1FD /* prog2.bc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = prog2.bc; sourceTree = "<group>"; };
 		27D11FDA18C175CE007AC1FD /* vm.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = vm.rb; sourceTree = "<group>"; };
+		27D11FEA18C30191007AC1FD /* instr.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = instr.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,11 +211,11 @@
 		27D11FC918C175CE007AC1FD /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				27D11FEA18C30191007AC1FD /* instr.rb */,
 				27D11FCA18C175CE007AC1FD /* .idea */,
 				27D11FD418C175CE007AC1FD /* constant.rb */,
 				27D11FD518C175CE007AC1FD /* core.rb */,
 				27D11FD618C175CE007AC1FD /* game.rb */,
-				27D11FD718C175CE007AC1FD /* instruction.rb */,
 				27D11FD818C175CE007AC1FD /* prog1.bc */,
 				27D11FD918C175CE007AC1FD /* prog2.bc */,
 				27D11FDA18C175CE007AC1FD /* vm.rb */,
@@ -324,7 +324,6 @@
 			files = (
 				27C2F47318BF573A00C22093 /* Images.xcassets in Resources */,
 				27D11FE018C175CE007AC1FD /* scope_settings.xml in Resources */,
-				27D11FE618C175CE007AC1FD /* instruction.rb in Resources */,
 				27D11FE918C175CE007AC1FD /* vm.rb in Resources */,
 				27D11FE318C175CE007AC1FD /* constant.rb in Resources */,
 				27C2F46118BF573A00C22093 /* InfoPlist.strings in Resources */,
@@ -339,6 +338,7 @@
 				27D11FDB18C175CE007AC1FD /* .name in Resources */,
 				27D11FDD18C175CE007AC1FD /* MemWar.iml in Resources */,
 				27D11FE518C175CE007AC1FD /* game.rb in Resources */,
+				27D11FEB18C30191007AC1FD /* instr.rb in Resources */,
 				27D11FE418C175CE007AC1FD /* core.rb in Resources */,
 				27D11FE218C175CE007AC1FD /* workspace.xml in Resources */,
 			);
