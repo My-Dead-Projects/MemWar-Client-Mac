@@ -119,7 +119,7 @@
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
-                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="3N7-vY-Gv1" customClass="CoreView">
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="3N7-vY-Gv1" customClass="SKView">
                         <rect key="frame" x="20" y="61" width="1028" height="771"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     </customView>

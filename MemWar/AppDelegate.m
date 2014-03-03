@@ -13,10 +13,6 @@
     /* Set the scale mode to scale to fit the window */
     scene.scaleMode = SKSceneScaleModeAspectFit;
     
-    self.view.showsFPS = NO;
-    self.view.showsNodeCount = NO;
-    self.view.showsDrawCount = NO;
-    
     gameController = [[GameController alloc] initWithScene:scene];
     
     [gameController initializeScene];

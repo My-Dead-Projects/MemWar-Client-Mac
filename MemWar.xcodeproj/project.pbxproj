@@ -20,7 +20,6 @@
 		27C2F47B18BF573A00C22093 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C2F45418BF573A00C22093 /* Cocoa.framework */; };
 		27C2F48318BF573A00C22093 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27C2F48118BF573A00C22093 /* InfoPlist.strings */; };
 		27C2F48518BF573A00C22093 /* MemWarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C2F48418BF573A00C22093 /* MemWarTests.m */; };
-		27C2F49918BF64B800C22093 /* CoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C2F49818BF64B800C22093 /* CoreView.m */; };
 		27D11FC518C0A2A5007AC1FD /* Ruby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D11FC318C0A287007AC1FD /* Ruby.framework */; };
 		27D11FC818C0A78A007AC1FD /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D11FC718C0A78A007AC1FD /* GameController.m */; };
 		27D11FDB18C175CE007AC1FD /* .name in Resources */ = {isa = PBXBuildFile; fileRef = 27D11FCB18C175CE007AC1FD /* .name */; };
@@ -73,8 +72,6 @@
 		27C2F48018BF573A00C22093 /* MemWarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemWarTests-Info.plist"; sourceTree = "<group>"; };
 		27C2F48218BF573A00C22093 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27C2F48418BF573A00C22093 /* MemWarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemWarTests.m; sourceTree = "<group>"; };
-		27C2F49718BF64B800C22093 /* CoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreView.h; sourceTree = "<group>"; };
-		27C2F49818BF64B800C22093 /* CoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreView.m; sourceTree = "<group>"; };
 		27D11FC318C0A287007AC1FD /* Ruby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ruby.framework; path = System/Library/Frameworks/Ruby.framework; sourceTree = SDKROOT; };
 		27D11FC618C0A78A007AC1FD /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
 		27D11FC718C0A78A007AC1FD /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
@@ -166,8 +163,6 @@
 				27D11FC918C175CE007AC1FD /* Game */,
 				27C2F46C18BF573A00C22093 /* CoreScene.h */,
 				27C2F46A18BF573A00C22093 /* CoreScene.m */,
-				27C2F49718BF64B800C22093 /* CoreView.h */,
-				27C2F49818BF64B800C22093 /* CoreView.m */,
 				27D11FC618C0A78A007AC1FD /* GameController.h */,
 				27D11FC718C0A78A007AC1FD /* GameController.m */,
 				27C2F46F18BF573A00C22093 /* AppDelegate.h */,
@@ -360,7 +355,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				27C2F46B18BF573A00C22093 /* CoreScene.m in Sources */,
-				27C2F49918BF64B800C22093 /* CoreView.m in Sources */,
 				27C2F46318BF573A00C22093 /* main.m in Sources */,
 				27D11FC818C0A78A007AC1FD /* GameController.m in Sources */,
 				27C2F46E18BF573A00C22093 /* AppDelegate.m in Sources */,
