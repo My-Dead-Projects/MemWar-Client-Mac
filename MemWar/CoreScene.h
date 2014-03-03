@@ -1,10 +1,10 @@
 #import <SpriteKit/SpriteKit.h>
 
-@interface CoreScene : SKScene {
-    SKLabelNode *instructions[1024];
-}
+@interface CoreScene : SKScene
 
-- (SKLabelNode *)instructionAt:(int)index;
-- (void)setInstructionAt:(int)index to:(SKLabelNode *)value;
+//@property(nonatomic, strong) SKLabelNode *testLabel;
+@property(nonatomic, strong) NSMutableArray *instr;
+
+- (void)setInstructionAt:(int)index toOpcode:(char *)opcode l:(int)l r:(int)r;
 
 @end

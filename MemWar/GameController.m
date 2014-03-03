@@ -6,6 +6,8 @@
 
 VALUE new(char *);
 VALUE call(VALUE reciever, char * methodName, int argc, ...);
+void inspect(VALUE obj);
+char*c_str(VALUE str);
 
 @implementation GameController
 
@@ -18,9 +20,22 @@ VALUE call(VALUE reciever, char * methodName, int argc, ...);
 
 - (void)initializeScene {
     [self initializeGame];
+    
+    VALUE mem = call(call(game, "core", 0), "mem", 0);
+    
+    for (int i = 0; i < 1024; i++) {
+        VALUE instr = call(mem, "at", 1, INT2NUM(i));
+        char *opcode = c_str((call(call(instr, "opcode", 0), "to_s", 0)));
+        [scene setInstructionAt:i
+                       toOpcode:opcode
+                              l:NUM2INT(call(instr, "l", 0))
+                              r:NUM2INT(call(instr, "r", 0))];
+    }
+//    scene.testLabel.text = @"Test String: Reloaded";
 }
 
 - (void)initializeGame {
+    // Initialize the Ruby interpreter
     RUBY_INIT_STACK;
     ruby_init();
     ruby_init_loadpath();
@@ -64,9 +79,6 @@ VALUE call(VALUE reciever, char * methodName, int argc, ...);
                                                prog2Path]
                                      userInfo:nil];
     }
-    
-    // Check contents of game
-    puts(RSTRING(rb_inspect(game))->as.heap.ptr);
 }
 
 - (void)cleanup {
@@ -102,4 +114,16 @@ VALUE call(VALUE reciever, char * methodName, int argc, ...) {
         argv = 0;
     }
     return rb_funcall2(reciever, rb_intern(methodName), argc, argv);
+}
+
+void inspect(VALUE obj) {
+    puts(c_str(rb_inspect(obj)));
+}
+
+char *c_str(VALUE str) {
+    if (RSTRING(str)->as.heap.ptr) {
+        return RSTRING(str)->as.heap.ptr;
+    } else {
+        return RSTRING(str)->as.ary;
+    }
 }
